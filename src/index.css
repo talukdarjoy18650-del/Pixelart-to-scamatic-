@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-brand-dark: #141414;
+  --color-brand-bg: #E4E3E0;
+  --color-panel-light: #DEDCD7;
+  --color-panel-header: #CECCC7;
+  --color-canvas-depth: #C7C4BF;
+  --color-green-mc: #22c55e;
+}
+
+body {
+  background-color: #E4E3E0;
+  color: #141414;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Styled scrollbars matching high density theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #DEDCD7;
+  border-left: 1px solid #141414;
+}
+::-webkit-scrollbar-thumb {
+  background: #141414;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Custom minecraft style buttons if needed */
+.mc-button-shadow {
+  box-shadow: inset -2px -2px 0px 0px #141414, inset 2px 2px 0px 0px #ffffff40;
+}
+

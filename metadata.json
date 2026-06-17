@@ -1,0 +1,6 @@
+{
+  "name": "Image to Block Schematic",
+  "description": "Convert images and pixel art into Minecraft Litematica (.litematic) and Sponge (.schem) schematics with customizable layouts, block palettes, and dithering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
